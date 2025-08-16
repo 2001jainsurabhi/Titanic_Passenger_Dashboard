@@ -1,90 +1,74 @@
-🚢 Titanic Passengers Dashboard
+# 🚢 Titanic Passengers Dashboard
 
-An interactive Power BI dashboard built on the classic Titanic dataset. This project analyzes passenger demographics, embarkation patterns, fare distribution, and survival rates to uncover historical insights.
+An **interactive Power BI dashboard** built on the classic Titanic dataset.  
+This project analyzes **passenger demographics, embarkation patterns, fare distribution, and survival rates** to uncover historical insights.  
 
-📊 Dashboard Highlights
+---
 
-KPI Cards (Top Section)
+## 📊 Dashboard Highlights
 
-Displays selected passenger attributes (Name, Age, Sex, Ticket, Fare, Cabin).
+- **KPI Cards (Top Section)** → Displays passenger attributes (Name, Age, Sex, Ticket, Fare, Cabin).  
+- **Table View (Left)** → Passenger details (Name, Ticket, Fare).  
+- **Age Distribution (Histogram)** → Passenger age group analysis.  
+- **Gender Distribution (Pie Chart)** → Male vs. Female percentage.  
+- **Embarkation Port (Donut Chart)** → Passengers from Cherbourg, Queenstown, Southampton.  
+- **Survival Analysis (Bar Chart)** → Survivors vs. non-survivors.  
+- **Fare & Age Analysis (Scatter Plot)** → Relationship between Passenger ID, Age, and Fare.  
 
-Table View (Left Section)
+---
 
-Passenger details: Name, Ticket Number, Fare.
+## 🎯 Objectives
 
-Age Distribution (Histogram)
+- Explore **passenger demographics**  
+- Compare **survival outcomes** across groups  
+- Identify **fare and embarkation patterns**  
+- Build an **interactive Power BI dashboard** for storytelling  
 
-Groups passengers into age ranges for demographic analysis.
+---
 
-Gender Distribution (Pie Chart)
+## 📂 Repository Contents
 
-Percentage of male vs. female passengers.
+- `data/titanic.xlsx` → Dataset  
+- `dashboard/Titanic Passengers Dashboard.pbix` → Power BI file  
+- `images/Titanic Dashboard.PNG` → Dashboard preview  
+- `README.md` → Project documentation  
 
-Embarkation Port (Donut Chart)
+---
 
-Passenger embarkation from Cherbourg, Queenstown, and Southampton.
+## 🚀 How to Run
 
-Survival Analysis (Bar Chart)
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<2001jainsurabhi>/Titanic_Passenger_Dashboard.git
+2. Open dashboard/Titanic Passengers Dashboard.pbix in Power BI Desktop.
+3. Ensure data/titanic.xlsx is available in the same relative path.
+4. Explore the dashboard with slicers for sex, survival status, and class.
 
-Comparison of survivors vs. non-survivors.
+🛠️ **Tools & Technologies**
 
-Fare & Age Analysis (Scatter Plot)
+Power BI Desktop → Data Visualization
 
-Relationship between Passenger ID, Age, and Fare.
-
-🎯 Objectives
-
-Explore demographics of Titanic passengers.
-
-Compare survival outcomes across different groups.
-
-Identify patterns in fare distribution and embarkation.
-
-Build an interactive and user-friendly Power BI dashboard for data storytelling.
-
-📂 Repository Contents
-
-Titanic Passengers Dashboard.pbix → Power BI dashboard file.
-
-titanic.xlsx → Titanic dataset (Excel format).
-
-Titanic Dashboard.PNG → Screenshot of the dashboard.
-
-🚀 How to Run
-
-Clone or download this repository.
-
-Open Titanic Passengers Dashboard.pbix in Power BI Desktop.
-
-Ensure titanic.xlsx is placed in the same folder (Power BI should auto-connect).
-
-Explore the dashboard using filters for sex, survival status, and class.
-
-🛠️ Tools & Technologies
-
-Power BI Desktop → Dashboard & Data Visualization.
-
-Excel → Dataset preparation.
+Excel → Dataset preparation
 
 📸 Dashboard Preview
 
 ✅ Key Insights
 
-65% of passengers were male, yet survival was higher among females.
+65% of passengers were male, but survival was higher for females.
 
-Majority of passengers embarked from Southampton (~72%).
+Majority embarked from Southampton (~72%).
 
-Children and wealthier passengers had higher survival chances.
+Wealthier passengers and children had better survival chances.
 
-Clear survival disparity across passenger class (1st > 2nd > 3rd).
+1st class survival rate > 2nd class > 3rd class.
 
 📌 Learning Outcomes
 
-Hands-on experience with data cleaning and visualization in Power BI.
+Data cleaning & visualization in Power BI
 
-Applied interactive storytelling techniques using slicers and filters.
+Building interactive dashboards with filters & slicers
 
-Extracted business-like insights from historical data.
+Extracting business-like insights from historical data
 
 👩‍💻 Author
 
